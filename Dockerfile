@@ -1,3 +1,2 @@
-FROM scratch
-COPY hello /
-CMD ["/TestDockerfile"]
+FROM alpine
+CMD "echo" "Hello World!"
